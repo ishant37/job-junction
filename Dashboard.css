@@ -1,0 +1,224 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  /* Increased padding for better spacing */
+  background-color: #ffffff;
+  /* Clean white background */
+  color: rgb(12, 11, 11);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  border-bottom: 1px solid #dee2e6;
+  /* Bottom border for separation */
+}
+
+.navbar .logo {
+  font-size: 28px;
+  /* Slightly larger font size for prominence */
+  font-weight: bold;
+  color: #007bff;
+  /* Bright blue for logo */
+}
+
+.navbar .menu a {
+  color: rgb(34, 34, 34);
+  /* Darker color for links */
+  margin-left: 20px;
+  /* Increase spacing between links */
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  /* Slightly larger padding for better click area */
+  border-radius: 5px;
+  /* Rounder corners */
+  transition: all 0.3s, background-color 0.3s;
+  /* Smooth transition */
+}
+
+.navbar .menu a:hover {
+  color: #ffffff;
+  /* White text on hover */
+  background-color: #007bff;
+  /* Blue background on hover */
+}
+
+.navbar .fas {
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  /* Larger icons */
+  transition: color 0.3s;
+  /* Smooth transition */
+}
+
+.navbar .fas:hover {
+  color: #007bff;
+  /* Match hover color to link hover */
+}
+
+.navbar .icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar .icon-container .dropdown-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  /* Position directly below the icon */
+  background-color: #ffffff;
+  /* White background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  min-width: 180px;
+  /* Increased width for better readability */
+  border-radius: 4px;
+  /* Rounded corners */
+  z-index: 1000;
+}
+
+.navbar .icon-container:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar .icon-container .dropdown-menu a {
+  color: #007bff;
+  /* Blue color for dropdown items */
+  padding: 10px 15px;
+  /* Padding for better spacing */
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #dee2e6;
+  /* Separator between items */
+}
+
+.navbar .icon-container .dropdown-menu a:last-child {
+  border-bottom: none;
+  /* Remove border from the last item */
+}
+
+.navbar .icon-container .dropdown-menu a:hover {
+  background-color: #f8f9fa;
+  /* Subtle background change on hover */
+}
+
+/* Other Styles */
+.dashboard {
+  padding: 20px;
+}
+
+.card {
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.card i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  opacity: 0.3;
+}
+
+.card-blue {
+  background-color: #020e1a;
+}
+
+.card-orange {
+  background-color: #fd7e14;
+}
+
+.card-green {
+  background-color: #28a745;
+}
+
+.card-red {
+  background-color: #dc3545;
+}
+
+.chart-container {
+  height: 400px;
+  /* Adjust as needed */
+  width: 100%;
+}
+
+.charts {
+  margin: 40px auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.cards {
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 30px;
+  overflow: hidden;
+  /* Ensure charts do not overflow their container */
+}
+
+
+.community-section .card h3 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.community-section .discussion-item,
+.community-section .blog-item {
+  border-bottom: 1px solid #dee2e6;
+  padding: 10px 0;
+  color: black;
+}
+
+.community-section .view-more {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  color: #007bff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #343a40;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #212529;
+  color: rgb(253, 250, 250);
+}
+
+body.dark-mode .card {
+  background-color: #495057;
+}
+
+body.dark-mode .cards {
+  background-color: #343a40;
+}
+
+.dark-mode-toggle {
+  cursor: pointer;
+  color: white;
+}

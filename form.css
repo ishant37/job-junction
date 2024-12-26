@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap');
+
+* {
+    font-family: 'Istok Web', sans-serif;
+}
+
+body {
+    /* background-color: #F8F9FA; */
+    background: linear-gradient(to right, rgba(119, 108, 108, 0.3), rgba(205, 205, 216, 0.3), rgba(119, 108, 108, 0.3)),
+        url("images/duplo24.jpg");
+}
+
+#register {
+    margin-left: 1.7rem;
+    font-size: 30px;
+    color: hsl(212, 78%, 45%);
+
+}
+
+#main {
+    background-color: transparent;
+    border: 2px solid grey;
+    border-radius: 40px;
+    height: auto;
+    width: 60rem;
+    margin-left: 50px;
+    left: 100px;
+    padding: 2rem;
+}
+
+#resumeupload {
+    height: 6rem;
+    width: 20rem;
+    background-color: #EEEEEE;
+    border-radius: 30px;
+    padding-top: 0.2rem;
+    margin: 0 auto;
+}
+
+#resumeupload p {
+    font-weight: 700;
+    font-size: 1rem;
+
+    text-align: center;
+}
+
+#resumeupload div a {
+    font-size: 0.9rem;
+    color: #196BCB;
+
+}
+
+#resumeupload div {
+    text-align: center;
+}
+
+#photoupload {
+    height: 8rem;
+    width: 10rem;
+    background-color: #EEEEEE;
+    border-radius: 30px;
+    padding-top: 0.2rem;
+    margin-left: 2rem;
+}
+
+#photoupload p {
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Istok Web', sans-serif;
+    text-align: center;
+}
+
+#photoupload div a {
+    font-size: 0.9rem;
+    color: #196BCB;
+    font-family: 'Istok Web', sans-serif;
+}
+
+#photoupload div {
+    text-align: center;
+}
+
+.hbold {
+    font-weight: 600;
+    position: relative;
+    top: 12px;
+    margin-left: 3rem;
+}
+
+.inputcss {
+    border-color: rgba(255, 255, 255, 0);
+    width: 35rem;
+    height: 2rem;
+    margin-left: 3rem;
+    border-radius: 1.25rem;
+    background-color: #ECECEC;
+}
+
+#submit {
+    height: 2.8rem;
+    width: 26rem;
+    border-radius: 1.875rem;
+    color: #000000;
+    background-color: #7B78F9;
+    margin-top: 5rem;
+    margin-left: 6rem;
+
+}
+
+#add div {
+    position: relative;
+    left: 32.2rem;
+    top: -2rem;
+    height: 1.4rem;
+    width: 5.2rem;
+    background-color: #ffffff;
+    padding-top: 0.2rem;
+    padding-left: 0.8rem;
+    border-radius: 1.875rem;
+}
+
+#or2 {
+    position: relative;
+    top: -130rem;
+    left: 70rem;
+}
+
+#google p {
+    font-size: 1.18rem;
+    margin-left: 5rem;
+    font-weight: 520;
+    font-size: 1.18rem;
+    position: relative;
+    top: -3.8rem;
+    right: 1.4rem;
+}
+
+#google {
+    position: absolute;
+    top: 11rem;
+    left: 73rem;
+    padding-left: 1rem;
+    border-radius: 1.25rem;
+    height: 3.06rem;
+    width: 18rem;
+    background-color: #EEEEEE;
+}
+
+#google img {
+    height: 3rem;
+    width: 3rem;
+}
+
+#img1 {
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    top: 23rem;
+    left: 72rem;
+}
+
+#img2 {
+    height: 17rem;
+    width: 17rem;
+    position: absolute;
+    top: 78rem;
+    left: 74rem;
+}
+
+#img3 {
+    height: 14rem;
+    width: auto;
+    position: absolute;
+    top: 130rem;
+    left: 70rem;
+}
+
+#pint {
+    position: absolute;
+    top: 39rem;
+    left: 80.5rem;
+}
+
+#pad {
+    position: absolute;
+    top: 92.3rem;
+    left: 79.5rem;
+}
+
+#done {
+    position: absolute;
+    top: 131rem;
+    left: 80.5rem;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+#hr3 {
+
+    transform: rotate(90deg);
+    width: 5rem;
+    position: absolute;
+    top: 10rem;
+    left: 68rem;
+}
+
+#hr4 {
+    transform: rotate(90deg);
+    width: 5rem;
+    position: absolute;
+    top: 17rem;
+    left: 68rem;
+}
+
+#or2 {
+    font-size: medium;
+    position: absolute;
+    top: 12.3rem;
+    left: 70.1rem;
+}
+
+#hr5 {
+
+    transform: rotate(90deg);
+    width: 37rem;
+    position: absolute;
+    top: 60rem;
+    left: 63.3rem;
+}
+
+#hr6 {
+
+    transform: rotate(90deg);
+    width: 36.5rem;
+    position: absolute;
+    top: 113rem;
+    left: 63.5rem;
+}
+
+#or1 {
+    font-size: medium;
+    position: relative;
+    top: 1rem;
+    left: 30.1rem;
+}
+
+#hr1 {
+
+
+    width: 25.5rem;
+    position: relative;
+    top: -0.7rem;
+    left: 32.5rem;
+}
+
+#hr2 {
+
+
+    width: 25.5rem;
+    position: relative;
+    top: -1.3rem;
+    left: 3rem;
+}
+
+#last input {
+    height: 1rem;
+    position: absolute;
+    top: 131rem;
+    left: -9.2rem;
+}
+
+#last p {
+    position: absolute;
+    top: 130rem;
+    left: 9rem;
+}
+
+#last a {
+    position: absolute;
+    top: 131.05rem;
+    left: 26.8rem;
+}
+
+#i1 {
+    height: 1.4rem;
+    position: absolute;
+    top: 60.35rem;
+    left: 27rem;
+    width: 15rem;
+    background-color: #FAFAFA;
+    border: rgba(255, 255, 255, 1);
+    border-radius: 1.25rem;
+}
+
+#i2 {
+    position: absolute;
+    top: 60.5rem;
+    left: 13rem;
+    height: 1.2rem;
+    width: 7.5rem;
+    font-weight: 530;
+    border-radius: 1.25rem;
+    border: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
+}
